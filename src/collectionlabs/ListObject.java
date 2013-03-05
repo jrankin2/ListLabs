@@ -2,8 +2,9 @@ package collectionlabs;
 
 public interface ListObject {
 
-    String getName();
+    public abstract String getName();
 
-    void setName(String name);
+    public abstract void setName(String name);
+    
     
 }

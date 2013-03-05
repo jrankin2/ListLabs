@@ -14,31 +14,31 @@ public class Dog {
         this.rabiesId = rabiesId;
     }
 
-    public String getName() {
+    public final String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public final void setName(String name) {
         this.name = name;
     }
 
-    public String getRabiesId() {
+    public final String getRabiesId() {
         return rabiesId;
     }
 
-    public void setRabiesId(String rabiesId) {
+    public final void setRabiesId(String rabiesId) {
         this.rabiesId = rabiesId;
     }
 
     @Override
-    public int hashCode() {
+    public final int hashCode() {
         int hash = 5;
         hash = 59 * hash + Objects.hashCode(this.rabiesId);
         return hash;
     }
 
     @Override
-    public boolean equals(Object obj) {
+    public final boolean equals(Object obj) {
         if (obj == null) {
             return false;
         }
