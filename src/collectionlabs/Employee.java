@@ -2,7 +2,7 @@ package collectionlabs;
 
 import java.util.Objects;
 
-public class Employee {
+public class Employee implements ListObject {
     private String id;
     private String name;
 
@@ -19,10 +19,12 @@ public class Employee {
         this.id = id;
     }
 
+    @Override
     public String getName() {
         return name;
     }
 
+    @Override
     public void setName(String name) {
         this.name = name;
     }
