@@ -14,6 +14,7 @@ public class Lab3 {
         objects.add(new Dog("Fido", "a"));
         objects.add(new Employee("a101", "John Doe"));
         objects.add(new Dog("Max", "b"));
+        
     }
     
     
